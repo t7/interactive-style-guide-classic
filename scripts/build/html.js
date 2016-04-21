@@ -21,7 +21,7 @@ glob.sync('./src/templates/partials/**/*.hbs').forEach(function (path) {
 glob.sync('./src/templates/pages/**/*.hbs').forEach(function (path) {
   var file = fs.readFileSync(path, 'utf8')
   var processed = matter(file)
-  var distPath = path.replace('./src/templates/pages/', './dist/').replace('.hbs', '.html')
+  var distPath = path.replace('./src/templates/', './dist/').replace('.hbs', '.html')
   var template = handlebars.compile(processed.content)
   processed.data.$root = '../'.repeat(distPath.split('/').length - 3)
   var html = template(processed.data)

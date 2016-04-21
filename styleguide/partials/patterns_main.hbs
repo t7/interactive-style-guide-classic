@@ -1,0 +1,22 @@
+{{#each contents}}
+  <div class="isg-section" id="{{id}}">
+    <div class="isg-h2">{{name}}</div>
+    <br>
+    <p class="isg-description">
+    {{description}}
+    </p>
+    <br>
+    {{#if isFile }}
+
+      <div class="isg-pattern">
+        <a href="{{url}}" class="isg-open" target="_blank">open in new window</a>
+        <div class="isg-tab-panel isg-example" data-id="{{id}}">{{{html}}}</div>
+        <div class="isg-tab-panel isg-snippet"><pre class="isg-pre"><code class="hljs">{{{markup}}}</code></pre></div>
+      </div>
+
+    {{/if}}
+
+    {{>patterns_main}}
+
+  </div>
+{{/each}}

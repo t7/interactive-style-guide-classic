@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{title}}</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{$root}}main.css">
+  <link rel="stylesheet" href="{{$root}}styleguide.css">
+  {{#with $styleguide.config}}
+    <style type="text/css">
+    .isg-header {
+      background-color: {{colors.primary}};
+      color: {{colors.secondary}};
+    }
+    .isg-client-title {
+        color: {{colors.tertiary}};
+    }
+    .isg-link {
+      color: {{colors.primary}};
+    }
+    </style>
+  {{/with}}
+  <script src="{{root}}main.js"></script>
+</head>
+<body>
+{{{block 'main'}}}
+</body>
+</html>

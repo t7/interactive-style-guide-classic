@@ -1,0 +1,22 @@
+---
+title: Patterns
+description: This is the patterns page
+---
+{{#extend 'styleguide_document'}}
+
+{{#content 'main'}}
+  {{>styleguide_header}}
+
+  {{#with $styleguide.patterns}}
+    <div class="isg-nav">
+      {{>patterns_nav}}
+    </div>
+
+    <div class="isg-main">
+      {{>patterns_main}}
+    </div>
+  {{/with}}
+
+{{/content}}
+
+{{/extend}}

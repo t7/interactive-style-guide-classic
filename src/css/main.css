@@ -1,6 +1,2 @@
-@import "bootstrap";
-@import "./button";
-
-body {
-  font-family: sans-serif;
-}
+@import "./base";
+@import "./buttons";

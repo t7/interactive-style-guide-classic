@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="{{description}}" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{title}}</title>
-  <link rel="stylesheet" href="{{root}}main.css">
-  <script src="{{root}}main.js"></script>
+  <meta name="description" content="{{$description}}" />
+  <title>{{$title}}</title>
+  <link rel="stylesheet" href="{{$root}}main.css">
+  <script src="{{$root}}main.js"></script>
 </head>
-<body>
+<body class="spacely">
 {{{block 'main'}}}
 </body>
 </html>

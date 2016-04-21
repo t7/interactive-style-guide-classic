@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="22.573px" height="22.575px" viewBox="0 0 22.573 22.575" enable-background="new 0 0 22.573 22.575" xml:space="preserve">
+<path d="M20.786,22.575h-19C0.803,22.575,0,21.773,0,20.787v-19C0,0.802,0.803,0,1.786,0h19c0.986,0,1.787,0.802,1.787,1.787v19
+	C22.573,21.773,21.772,22.575,20.786,22.575"/>
+<rect x="8.676" y="15.13" transform="matrix(0.4431 0.8965 -0.8965 0.4431 20.9162 1.9771)" fill="#FFFFFF" width="0.381" height="5.388"/>
+<rect x="7.523" y="17.72" transform="matrix(0.6997 0.7145 -0.7145 0.6997 15.7201 -1.5745)" fill="#FFFFFF" width="4.419" height="0.382"/>
+<rect x="9.59" y="13.062" transform="matrix(0.6594 0.7518 -0.7518 0.6594 14.645 -2.2274)" fill="#FFFFFF" width="0.381" height="3.975"/>
+<rect x="8.697" y="14.859" transform="matrix(0.5706 0.8212 -0.8212 0.5706 16.7993 -2.0304)" fill="#FFFFFF" width="3.289" height="0.382"/>
+<rect x="9.76" y="12.576" transform="matrix(0.5848 0.8112 -0.8112 0.5848 14.8009 -3.3868)" fill="#FFFFFF" width="1.899" height="0.38"/>
+<rect x="10.193" y="11.805" transform="matrix(0.6824 0.731 -0.731 0.6824 12.8248 -3.4514)" fill="#FFFFFF" width="0.382" height="2.456"/>
+<rect x="11.005" y="17.632" transform="matrix(0.896 0.444 -0.444 0.896 9.3387 -4.2296)" fill="#FFFFFF" width="5.388" height="0.384"/>
+<rect x="12.642" y="15.701" transform="matrix(0.7122 0.702 -0.702 0.7122 16.266 -3.8534)" fill="#FFFFFF" width="0.381" height="4.42"/>
+<rect x="10.798" y="14.859" transform="matrix(0.7545 0.6563 -0.6563 0.7545 13.0152 -4.6969)" fill="#FFFFFF" width="3.976" height="0.381"/>
+<rect x="12.035" y="13.405" transform="matrix(0.8184 0.5747 -0.5747 0.8184 10.8689 -4.2924)" fill="#FFFFFF" width="0.381" height="3.289"/>
+<rect x="11.667" y="11.815" transform="matrix(0.8136 0.5815 -0.5815 0.8136 9.6339 -4.5157)" fill="#FFFFFF" width="0.383" height="1.901"/>
+<rect x="10.954" y="12.842" transform="matrix(0.729 0.6845 -0.6845 0.729 12.222 -4.8068)" fill="#FFFFFF" width="2.455" height="0.381"/>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M8.369,6.204c0-1.601,1.305-2.9,2.91-2.9c1.611,0,2.919,1.299,2.919,2.9c0,1.598-1.308,2.895-2.919,2.895
+			C9.674,9.099,8.369,7.802,8.369,6.204 M7.871,6.204c0,1.878,1.526,3.398,3.408,3.398c1.89,0,3.417-1.52,3.417-3.398
+			s-1.527-3.398-3.417-3.398C9.397,2.806,7.871,4.326,7.871,6.204"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-382.8291" y1="361.1665" x2="-381.8291" y2="361.1665" gradientTransform="matrix(0 6.7959 -6.7959 0 2465.7302 2604.4795)">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.65" style="stop-color:#58595B"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<rect x="7.871" y="2.806" clip-path="url(#SVGID_2_)" fill="url(#SVGID_3_)" width="6.825" height="6.796"/>
+</g>
+<g>
+	<defs>
+		<path id="SVGID_4_" d="M9.461,6.906c0-0.998,0.815-1.81,1.821-1.81c1.007,0,1.824,0.812,1.824,1.81
+			c0,1.007-0.817,1.818-1.824,1.818C10.276,8.724,9.461,7.913,9.461,6.906 M8.991,6.906c0,1.261,1.026,2.286,2.291,2.286
+			c1.266,0,2.293-1.025,2.293-2.286c0-1.26-1.027-2.277-2.293-2.277C10.018,4.629,8.991,5.646,8.991,6.906"/>
+	</defs>
+	<clipPath id="SVGID_5_">
+		<use xlink:href="#SVGID_4_"  overflow="visible"/>
+	</clipPath>
+	
+		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-382.6846" y1="382.1128" x2="-381.6846" y2="382.1128" gradientTransform="matrix(0 4.5635 -4.5635 0 1755.0508 1751.0098)">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.65" style="stop-color:#58595B"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<rect x="8.991" y="4.629" clip-path="url(#SVGID_5_)" fill="url(#SVGID_6_)" width="4.584" height="4.563"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#B3C48D" d="M16.768,18.958c-2.892-4.137-4.775-8.618-4.578-10.895
+	l-0.273-0.026c0.297-0.202,0.491-0.543,0.491-0.929c0-0.621-0.502-1.125-1.125-1.125c-0.618,0-1.121,0.504-1.121,1.125
+	c0,0.402,0.211,0.75,0.525,0.951l-0.302,0.025c0.198,2.277-1.687,6.76-4.578,10.899l0.695,0.484
+	c2.211-3.165,3.816-6.458,4.449-8.981v9.258h0.671v-9.289c0.63,2.525,2.237,5.823,4.451,8.989L16.768,18.958z"/>
+</svg>

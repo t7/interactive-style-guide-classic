@@ -1,0 +1,93 @@
+---
+title: Branding
+description: This is the branding page
+---
+{{#extend 'styleguide_document'}}
+
+{{#content 'main'}}
+  {{>styleguide_header}}
+
+  <div class="isg-nav">
+    <ul class="isg-list">
+      <li class="isg-list-item"><a href="#colors" class="isg-link">Colors</a>
+      <li class="isg-list-item"><a href="#fonts" class="isg-link">Fonts</a>
+      <li class="isg-list-item"><a href="#icons" class="isg-link">Icons</a>
+    </ul>
+  </div>
+
+  <div class="isg-main">
+
+    <div class="isg-section" id="colors">
+      <br>
+      <div class="isg-h2">Colors</div>
+
+      {{#each $styleguide.branding.colors}}
+
+      <div class="isg-color">
+        <div class="isg-color-sample" style="background:{{value}};"></div>
+        <div class="isg-color-title">{{{title}}}
+          <br>
+          <span style="text-transform:uppercase;">{{{value}}}</span>
+        </div>
+        <div class="isg-color-description">{{{description}}}</div>
+      </div>
+
+      {{/each}}
+
+    </div>
+
+
+    <div class="isg-section" id="fonts">
+      <br>
+      <div class="isg-h2">Fonts</div>
+      <br>
+      <p>
+        The following fonts are approved for use
+      </p>
+      <br>
+
+      {{#each $styleguide.branding.typography}}
+
+        <div style="border-bottom:1px solid #ddd;">{{title}}<span style="font-size:13px;font-style:italic;color:#647787;font-weight:normal;margin-left: 20px;">{{description}}</span></div>
+        <div class="isg-font" style="font-family:{{font-family}};">
+
+          <p style="padding: 2px;margin:0 0 0 20px;">
+            Grumpy wizards make toxic brew for the evil Queen and Jack.
+          </p>
+          <p style="padding: 2px;margin:0 0 0 20px;">
+            abcdefghijklmnopqrstuvwxyz
+          </p>
+          <p style="padding: 2px;margin:0 0 0 20px;">
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ
+          </p>
+          <p style="padding: 2px;margin:0 0 0 20px;">
+            0123456789(!@#$%.,?:;)
+          </p>
+
+        </div>
+        <br><br>
+
+      {{/each}}
+    </div>
+
+    <div class="isg-section" id="icons">
+      <br>
+      <div class="isg-h2">Icons</div>
+      <p class="isg-description">Icons are in SVG format and can be scaled to any size using CSS. </p>
+
+      {{#each $styleguide.branding.icons}}
+
+        <div class="isg-icon">
+          <a href="{{src}}" style="background-image:url({{src}});"></a>
+          <div class="isg-icon-title">.spacely-icon-{{className}}</div>
+        </div>
+
+      {{/each}}
+    </div>
+  </div>
+
+  <br><br><br><br><br><br><br><br><br>
+
+{{/content}}
+
+{{/extend}}

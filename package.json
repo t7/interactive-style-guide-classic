@@ -1,5 +1,5 @@
 {
-  "name": "style-guide",
+  "name": "quickstart",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,13 +9,20 @@
     "test:css": "stylelint ./src/css/**/*.css",
     "clean": "trash './dist/*' '!./dist/README.md'",
     "start": "npm-run-all -p server watch",
-    "server": "watch-http-server dist",
+    "server": "watch-http-server dist -s",
     "watch": "npm-scripts-watcher",
     "build": "npm-run-all -p build:*",
     "build:static": "ncp ./src/static ./dist/static",
     "build:css": "postcss --use postcss-import autoprefixer postcss-cssnext postcss-browser-reporter postcss-reporter -o ./dist/main.css ./src/css/main.css",
     "build:js": "browserify ./src/js/main.js -o ./dist/main.js",
-    "build:html": "node scripts/build/html"
+    "prebuild:html": "trash './dist/pages/*'",
+    "build:html": "node scripts/build/html",
+    "styleguide": "npm-run-all -p styleguide:html styleguide:css",
+    "poststyleguide": "npm run styleguide:screenshots",
+    "prestyleguide:html": "trash './dist/patterns/*'",
+    "styleguide:html": "node scripts/styleguide/html",
+    "styleguide:css": "postcss --use postcss-import autoprefixer postcss-cssnext postcss-browser-reporter postcss-reporter -o ./dist/styleguide.css ./styleguide/styleguide.css",
+    "styleguide:screenshots": "node scripts/styleguide/screenshots"
   },
   "watch": {
     "src/js": [
@@ -29,6 +36,10 @@
     ],
     "src/static": [
       "build:static"
+    ],
+    "styleguide": [
+      "styleguide:html",
+      "styleguide:css"
     ]
   },
   "keywords": [],
@@ -46,6 +57,7 @@
     "mkdirp": "0.5.1",
     "ncp": "2.0.0",
     "npm-scripts-watcher": "1.0.2",
+    "pageres": "4.1.1",
     "pretty": "1.0.0",
     "rimraf": "2.5.2",
     "snazzy": "3.0.1",

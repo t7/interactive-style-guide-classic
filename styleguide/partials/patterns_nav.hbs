@@ -1,0 +1,9 @@
+<ul class="isg-list">
+{{#each contents}}
+  <li class="isg-list-item"><a href="#{{id}}" class="isg-link">{{name}}</a>
+  {{#if contents}}
+    {{>patterns_nav}}
+    <br>
+  {{/if}}
+{{/each}}
+</ul>

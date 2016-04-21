@@ -1,0 +1,410 @@
+
+i[class*="spacely-icon-"] {
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+
+  display: inline-block;
+  vertical-align: middle;
+
+  color: transparent;
+  font-size: 0;
+  overflow: hidden;
+  text-indent: -99999px;
+
+  width: $icon-size;
+  height: $icon-size;
+}
+
+i.spacely-icon-small {
+  width: $font-size;
+  height: $font-size;
+
+  position: relative;
+  top: -1px;
+}
+
+*[data-icon="left"] i {
+  margin-right: 5px;
+}
+
+*[data-icon="right"] i {
+  margin-left: 5px;
+}
+
+
+i.spacely-icon-search {
+  background-image: url("/static/images/icons/search.svg");
+}
+
+a:hover i.spacely-icon-search {
+  background-image: url("/static/images/icons/search-hover.svg");
+}
+
+i.spacely-icon-x {
+  background-image: url("/static/images/icons/search-x-icon.svg");
+}
+
+i.spacely-icon-facebook {
+  background-image: url("/static/images/icons/facebook.svg");
+}
+
+i.spacely-icon-google-plus {
+  background-image: url("/static/images/icons/google-plus.svg");
+}
+
+i.spacely-icon-linkedin {
+  background-image: url("/static/images/icons/linkedin.svg");
+}
+
+i.spacely-icon-youtube {
+  background-image: url("/static/images/icons/youtube.svg");
+}
+
+i.spacely-icon-twitter {
+  background-image: url("/static/images/icons/twitter.svg");
+}
+
+i.spacely-icon-add {
+  background-image: url("/static/images/icons/add.svg");
+}
+
+a:hover i.spacely-icon-add {
+  background-image: url("/static/images/icons/add-hover.svg");
+}
+
+i.spacely-icon-send-email {
+  background-image: url("/static/images/icons/send-email.svg");
+}
+
+a:hover i.spacely-icon-send-email {
+  background-image: url("/static/images/icons/send-email-hover.svg");
+}
+
+i.spacely-icon-share {
+  background-image: url("/static/images/icons/share.svg");
+}
+
+a:hover i.spacely-icon-share {
+  background-image: url("/static/images/icons/share-hover.svg");
+}
+
+i.spacely-icon-favorite {
+  background-image: url("/static/images/icons/favorite.svg");
+}
+
+a:hover i.spacely-icon-favorite {
+  background-image: url("/static/images/icons/favorite-hover.svg");
+}
+
+i.spacely-icon-literature {
+  background-image: url("/static/images/icons/literature.svg");
+}
+
+a:hover i.spacely-icon-literature {
+  background-image: url("/static/images/icons/literature-hover.svg");
+}
+
+i.spacely-icon-message {
+  background-image: url("/static/images/icons/message.svg");
+}
+
+a:hover i.spacely-icon-message {
+  background-image: url("/static/images/icons/message-hover.svg");
+}
+
+i.spacely-icon-cart {
+  background-image: url("/static/images/icons/cart.svg");
+}
+
+a:hover i.spacely-icon-cart {
+  background-image: url("/static/images/icons/cart-hover.svg");
+}
+
+i.spacely-icon-cart-blue {
+  background-image: url("/static/images/icons/cart-blue.svg");
+}
+
+i.spacely-icon-user-profile {
+  background-image: url("/static/images/icons/user-profile.svg");
+}
+
+a:hover i.spacely-icon-user-profile {
+  background-image: url("/static/images/icons/user-profile-hover.svg");
+}
+
+i.spacely-icon-account {
+  background-image: url("/static/images/icons/account.svg");
+}
+
+a:hover i.spacely-icon-account {
+  background-image: url("/static/images/icons/account-hover.svg");
+}
+
+i.spacely-icon-menu {
+  background-image: url("/static/images/icons/menu.svg");
+}
+
+i.spacely-icon-arrow-right{
+  background-image: url("/static/images/icons/arrow-right.svg");
+}
+
+i.spacely-icon-arrow-left {
+  background-image: url("/static/images/icons/arrow-left.svg");
+}
+
+i.spacely-icon-arrow-right-white {
+  background-image: url("/static/images/icons/arrow-right-white.svg");
+}
+
+i.spacely-icon-arrow-left-white {
+  background-image: url("/static/images/icons/arrow-left-white.svg");
+}
+
+i.spacely-icon-arrow-right-link {
+  background-image: url("/static/images/icons/arrow-right-blue.svg");
+}
+
+i.spacely-icon-arrow-down {
+  background-image: url("/static/images/icons/arrow-down.svg");
+}
+
+i.spacely-icon-circle-arrow-down {
+  background-image: url("/static/images/icons/circle-arrow-down.svg");
+}
+
+i.spacely-icon-circle-arrow-down-blue {
+  background-image: url("/static/images/icons/circle-arrow-down-blue.svg");
+}
+
+i.spacely-icon-circle-arrow-up {
+  background-image: url("/static/images/icons/circle-arrow-up.svg");
+}
+
+i.spacely-icon-circle-arrow-up-blue {
+  background-image: url("/static/images/icons/circle-arrow-up-blue.svg");
+}
+
+i.spacely-icon-circle-play {
+  background-image: url("/static/images/icons/circle-play.svg");
+}
+
+i.spacely-icon-square-play {
+  background-image: url("/static/images/icons/square-play.svg");
+}
+
+i.spacely-icon-checkmark-white {
+  background-image: url("/static/images/icons/checkmark-white.svg");
+}
+
+i.spacely-icon-materials {
+  background-image: url("/static/images/icons/materials.svg");
+}
+
+i.spacely-icon-industrials {
+  background-image: url("/static/images/icons/industrials.svg");
+}
+
+i.spacely-icon-telecom {
+  background-image: url("/static/images/icons/telecom.svg");
+}
+
+i.spacely-icon-healthcare {
+  background-image: url("/static/images/icons/healthcare.svg");
+}
+
+i.spacely-icon-financials {
+  background-image: url("/static/images/icons/financials.svg");
+}
+
+i.spacely-icon-utilities {
+  background-image: url("/static/images/icons/utilities.svg");
+}
+
+i.spacely-icon-consumer-staples {
+  background-image: url("/static/images/icons/consumer-staples.svg");
+}
+
+i.spacely-icon-consumer-discretionary {
+  background-image: url("/static/images/icons/consumer-discretionary.svg");
+}
+
+i.spacely-icon-energy {
+  background-image: url("/static/images/icons/energy.svg");
+}
+
+i.spacely-icon-info-tech {
+  background-image: url("/static/images/icons/info-tech.svg");
+}
+
+i.spacely-icon-like {
+  background-image: url("/static/images/icons/like.svg");
+}
+
+i.spacely-icon-key {
+  background-image: url("/static/images/icons/key.svg");
+}
+
+i.spacely-icon-pie-chart {
+  background-image: url("/static/images/icons/pie-chart.svg");
+}
+
+i.spacely-icon-bar-chart {
+  background-image: url("/static/images/icons/bar-chart.svg");
+}
+
+i.spacely-icon-map {
+  background-image: url("/static/images/icons/map.svg");
+}
+
+i.spacely-icon-directions {
+  background-image: url("/static/images/icons/directions.svg");
+}
+
+i.spacely-icon-time {
+  background-image: url("/static/images/icons/time.svg");
+}
+
+i.spacely-icon-bulls-eye {
+  background-image: url("/static/images/icons/bulls-eye.svg");
+}
+
+i.spacely-icon-binoculars {
+  background-image: url("/static/images/icons/binoculars.svg");
+}
+
+i.spacely-icon-gear {
+  background-image: url("/static/images/icons/gear.svg");
+}
+
+i.spacely-icon-capital {
+  background-image: url("/static/images/icons/capital.svg");
+}
+
+i.spacely-icon-globe {
+  background-image: url("/static/images/icons/globe.svg");
+}
+
+i.spacely-icon-calendar {
+  background-image: url("/static/images/icons/calendar.svg");
+}
+
+i.spacely-icon-pie-chart-white {
+  background-image: url("/static/images/icons/pie-chart-white.svg");
+}
+
+i.spacely-icon-bar-chart-white {
+  background-image: url("/static/images/icons/bar-chart-white.svg");
+}
+
+i.spacely-icon-map-white {
+  background-image: url("/static/images/icons/map-white.svg");
+}
+
+i.spacely-icon-directions-white {
+  background-image: url("/static/images/icons/directions-white.svg");
+}
+
+i.spacely-icon-time-white {
+  background-image: url("/static/images/icons/time-white.svg");
+}
+
+i.spacely-icon-bulls-eye-white {
+  background-image: url("/static/images/icons/bulls-eye-white.svg");
+}
+
+i.spacely-icon-binoculars-white {
+  background-image: url("/static/images/icons/binoculars-white.svg");
+}
+
+i.spacely-icon-gear-white {
+  background-image: url("/static/images/icons/gear-white.svg");
+}
+
+i.spacely-icon-capital-white {
+  background-image: url("/static/images/icons/capital-white.svg");
+}
+
+i.spacely-icon-globe-white {
+  background-image: url("/static/images/icons/globe-white.svg");
+}
+
+i.spacely-icon-calendar-white {
+  background-image: url("/static/images/icons/calendar-white.svg");
+}
+
+i.spacely-icon-filter {
+  background-image: url("/static/images/icons/filter.svg");
+}
+
+i.spacely-icon-info {
+  background-image: url("/static/images/icons/info.svg");
+}
+
+a:hover i.spacely-icon-info {
+  background-image: url("/static/images/icons/info-hover.svg");
+}
+
+i.spacely-icon-bookmark {
+  background-image: url("/static/images/icons/bookmark.svg");
+}
+
+i.spacely-icon-remove {
+  background-image: url("/static/images/icons/remove.svg");
+}
+
+a:hover i.spacely-icon-remove {
+  background-image: url("/static/images/icons/remove-hover.svg");
+}
+
+i.spacely-icon-linkedin-blue {
+  background-image: url("/static/images/icons/linkedin-blue.svg");
+}
+
+a:hover i.spacely-icon-linkedin-blue {
+  background-image: url("/static/images/icons/linkedin-blue-hover.svg");
+}
+
+i.spacely-icon-twitter-blue {
+  background-image: url("/static/images/icons/twitter-blue.svg");
+}
+
+a:hover i.spacely-icon-twitter-blue {
+  background-image: url("/static/images/icons/twitter-blue-hover.svg");
+}
+
+i.spacely-icon-google-plus-blue {
+  background-image: url("/static/images/icons/google-plus-blue.svg");
+}
+
+a:hover i.spacely-icon-google-plus-blue {
+  background-image: url("/static/images/icons/google-plus-blue-hover.svg");
+}
+
+i.spacely-icon-email {
+  background-image: url("/static/images/icons/email.svg");
+}
+
+a:hover i.spacely-icon-email {
+  background-image: url("/static/images/icons/email-hover.svg");
+}
+
+i.spacely-icon-list {
+  background-image: url("/static/images/icons/list.svg");
+}
+
+i.spacely-icon-tile {
+  background-image: url("/static/images/icons/tile.svg");
+}
+
+i.spacely-icon-favorite-select {
+  background-image: url("/static/images/icons/favorite-select.svg");
+}
+
+.spacely-icon-links  i[class*="spacely-icon-"] {
+  margin-right: 3px;
+}
+
+
+

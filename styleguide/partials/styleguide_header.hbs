@@ -1,0 +1,12 @@
+<div class="isg-header">
+  {{#with $styleguide.config}}
+  <a href="index.html">{{client_name}}</a>
+  <span class="isg-client-title">{{project_name}}</span>
+  {{/with}}
+  <select onchange="location = this.value">
+    <option {{#is title 'Introduction'}}selected{{/is}} value="index.html">Introduction</option>
+    <option {{#is title 'Branding'}}selected{{/is}} value="branding.html">Branding</option>
+    <option {{#is title 'Patterns'}}selected{{/is}} value="patterns.html">Patterns</option>
+    <option {{#is title 'Pages'}}selected{{/is}} value="pages.html">Pages</option>
+  </select>
+</div>

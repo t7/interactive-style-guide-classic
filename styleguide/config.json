@@ -1,0 +1,9 @@
+{
+  "client_name": "Spacely Sprockets",
+  "project_name": "Interactive Style Guide",
+  "colors": {
+    "primary": "#005d81",
+    "secondary": "#ffffff",
+    "tertiary": "#7ecae3"
+  }
+}

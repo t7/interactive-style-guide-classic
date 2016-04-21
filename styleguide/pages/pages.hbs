@@ -1,0 +1,22 @@
+---
+title: Templates
+description: This is the templates page
+---
+{{#extend 'styleguide_document'}}
+
+{{#content 'main'}}
+  {{>styleguide_header}}
+
+  {{#with $styleguide.pages}}
+    <div class="isg-nav">
+      {{>pages_nav}}
+    </div>
+
+    <div class="isg-main">
+      {{>pages_main}}
+    </div>
+  {{/with}}
+
+{{/content}}
+
+{{/extend}}
