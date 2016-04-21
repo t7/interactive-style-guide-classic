@@ -4,7 +4,7 @@ This guide contains all HTML markup and CSS styling necessary to create and Inte
 
 ### Demo
 
-[http://t7interactive.com/FSAI-Interactive-Style-Guide/](http://t7interactive.com/FSAI-Interactive-Style-Guide/)
+http://t7.github.io/Interactive-Style-Guide-Classic/
 
 ### Prerequisites
 - Git [http://git-scm.com](http://git-scm.com)
@@ -14,8 +14,8 @@ This guide contains all HTML markup and CSS styling necessary to create and Inte
 
 #### Download Source from GitHub
 ```
-$ git clone https://github.com/TandemSeven/FSAI-Interactive-Style-Guide
-$ cd FSAI-Interactive-Style-Guide
+$ git clone https://github.com/t7/Interactive-Style-Guide-Classic
+$ cd Interactive-Style-Guide-Classic
 ```
 
 #### Install Dependencies
@@ -30,7 +30,6 @@ $ npm run styleguide
 ```
 
 ### Start Development Server
-
 ```
 $ npm start
 ```
