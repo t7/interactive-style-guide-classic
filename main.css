@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: sans-serif;
+}
+.spacely {
+    background-color: #609bb7;
+}
+.button {
+  border: 1px solid blue;
+  background: #ccc;
+  border-radius: 10px;
+}
+.big-button {
+  padding: 2em 5em;
+  font-size: 24px;
+}

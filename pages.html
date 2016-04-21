@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Templates</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="styleguide.css">
+    <style type="text/css">
+    .isg-header {
+      background-color: #005d81;
+      color: #ffffff;
+    }
+    .isg-client-title {
+        color: #7ecae3;
+    }
+    .isg-link {
+      color: #005d81;
+    }
+    </style>
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="isg-header">
+    <a href="index.html">Spacely Sprockets</a>
+    <span class="isg-client-title">Interactive Style Guide</span>
+    <select onchange="location = this.value">
+      <option  value="index.html">Introduction</option>
+      <option  value="branding.html">Branding</option>
+      <option  value="patterns.html">Patterns</option>
+      <option  value="pages.html">Pages</option>
+    </select>
+  </div>
+
+    <div class="isg-nav">
+      <ul class="isg-list">
+        <li class="isg-list-item"><a href="#dist_pages" class="isg-link">pages</a>
+          <ul class="isg-list">
+            <li class="isg-list-item"><a href="#dist_pages_index_html" class="isg-link">index</a>
+          </ul>
+          <br>
+      </ul>
+    </div>
+
+    <div class="isg-main">
+        <div class="isg-section" id="dist_pages">
+          <div class="isg-h2">pages</div>
+          <br>
+          <p class="isg-description">
+          
+          </p>
+          <br>
+      
+            <div class="isg-section" id="dist_pages_index_html">
+              <div class="isg-h2">index</div>
+              <br>
+              <p class="isg-description">
+              This is the home page
+              </p>
+              <br>
+                <div class="isg-page-item">
+                  <a href="/pages/index.html"><img class="isg-page-img isg-page-small" src="screenshots/localhost!8080!pages!index.html-320x568.png"/></a>
+                  <a href="/pages/index.html"><img class="isg-page-img isg-page-medium" src="screenshots/localhost!8080!pages!index.html-768x1024.png"/></a>
+                  <a href="/pages/index.html"><img class="isg-page-img isg-page-large" src="screenshots/localhost!8080!pages!index.html-1366x768.png"/></a>
+                </div>
+          
+          
+            </div>
+      
+        </div>
+    </div>
+
+
+</body>
+</html>
