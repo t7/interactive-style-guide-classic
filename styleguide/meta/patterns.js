@@ -37,7 +37,7 @@ module.exports = function patternify (path) {
         path: path,
         fileName: fileName,
         name: name,
-        url: path.replace('./dist/', '/'),
+        url: path.replace('./dist/', ''),
         title: title,
         description: description,
         html: html,

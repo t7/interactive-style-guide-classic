@@ -31,7 +31,7 @@ module.exports = function pageify (path) {
       item = {
         id: id,
         isFile: true,
-        url: path.replace('./dist/', '/'),
+        url: path.replace('./dist/', ''),
         path: path,
         fileName: fileName,
         screenshots: {

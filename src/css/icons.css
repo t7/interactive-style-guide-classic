@@ -33,7 +33,6 @@ i.spacely-icon-small {
   margin-left: 5px;
 }
 
-
 i.spacely-icon-search {
   background-image: url("/static/images/icons/search.svg");
 }
@@ -146,7 +145,7 @@ i.spacely-icon-menu {
   background-image: url("/static/images/icons/menu.svg");
 }
 
-i.spacely-icon-arrow-right{
+i.spacely-icon-arrow-right {
   background-image: url("/static/images/icons/arrow-right.svg");
 }
 
@@ -405,6 +404,3 @@ i.spacely-icon-favorite-select {
 .spacely-icon-links  i[class*="spacely-icon-"] {
   margin-right: 3px;
 }
-
-
-
